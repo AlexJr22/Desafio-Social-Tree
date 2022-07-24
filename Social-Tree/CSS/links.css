@@ -1,0 +1,18 @@
+main {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  border: 3px solid var(--theme);
+  width: 30vw;
+  border-radius: 9px;
+  margin: 7px auto;
+  padding: 9px;
+  text-align: center;
+}
+
+.link:hover {
+  border: 3px rgb(70, 100, 70) solid;
+}
