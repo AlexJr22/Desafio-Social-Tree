@@ -24,10 +24,12 @@ main {
 .link:hover {
   color: rgb(70, 100, 70);
   border: 3px rgb(70, 100, 70) solid;
-  cursor: pointer;
 }
 
-.link > img {
-  position: absolute;
-  left: 30%;
+.link > p {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
 }
