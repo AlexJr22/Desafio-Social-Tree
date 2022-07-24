@@ -2,7 +2,8 @@
 
 
 :root {
-  --body-bg-color: #FAF7FD;
+  /* --body-bg-color: #FAF7FD; */
+  --body-bg-color: rgba(0, 236, 240, 0.3);
   --theme: #463264;
 }
 
@@ -16,4 +17,16 @@ body {
 
 .shadowBox {
   box-shadow:  3px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(70, 100, 70);
+  ;
 }
