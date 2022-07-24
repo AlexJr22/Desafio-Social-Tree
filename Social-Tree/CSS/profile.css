@@ -1,5 +1,5 @@
 #profile {
-  width: 100vw;
+  width: 250px;
   display: flex;
   margin-top: 80px;
   flex-direction: column;
@@ -7,8 +7,7 @@
 }
 
 #imgprofile {
-  width: 30%;
-  max-width: 350px;
+  width: 80%;
   border-radius: 50%;
   border: 3px rgb(70, 50, 100) solid;
   margin-bottom: 14px;
