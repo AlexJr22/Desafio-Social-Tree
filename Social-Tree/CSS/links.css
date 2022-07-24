@@ -5,14 +5,19 @@ main {
 }
 
 .link {
-  border: 3px solid var(--theme);
+  color: var(--theme);
+  font-family: Poppins;
+  font-weight: 600;
   width: 30vw;
+  min-width: 350px;
+  border: 3px solid var(--theme);
   border-radius: 9px;
-  margin: 7px auto;
+  margin: 21px auto;
   padding: 9px;
   text-align: center;
 }
 
 .link:hover {
+  color: rgb(70, 100, 70);
   border: 3px rgb(70, 100, 70) solid;
 }
