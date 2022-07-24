@@ -5,6 +5,8 @@ main {
 }
 
 .link {
+  position: relative;
+  display: flex;
   color: var(--theme);
   font-family: Poppins;
   font-weight: 600;
@@ -14,10 +16,18 @@ main {
   border-radius: 9px;
   margin: 21px auto;
   padding: 9px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .link:hover {
   color: rgb(70, 100, 70);
   border: 3px rgb(70, 100, 70) solid;
+  cursor: pointer;
+}
+
+.link > img {
+  position: absolute;
+  left: 30%;
 }
