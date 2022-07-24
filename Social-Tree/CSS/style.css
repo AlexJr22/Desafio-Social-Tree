@@ -4,9 +4,16 @@
 :root {
   --body-bg-color: #FAF7FD;
   --purple: #BB99DD;
+  --theme: 3px rgb(70, 50, 100) solid;
 }
 
 body {
   background-color: var(--body-bg-color);
   display: flex;
+  justify-content: center;
+
+}
+
+.shadowbox {
+  box-shadow:  3px 7px 10px rgba(0, 0, 0, 0.4);
 }
